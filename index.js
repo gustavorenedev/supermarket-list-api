@@ -14,8 +14,6 @@ app.get('/', (req, res) => {
     res.send("Hello World");
 });
 
-
-
 app.listen(port, () => {
     connectDatabase().catch((error) => {
         console.log(`Error connecting database: ${error}`);

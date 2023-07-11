@@ -47,6 +47,9 @@ npm install
 npm run start:dev
 ```
 
+### Important Rule
+Is necessary send the username at the requisition header
+
 ### Available endpoints
 
 - [GET]/list-items
